@@ -56,6 +56,12 @@ label {
     
 }
 
+.label input:hover {
+    background-color: #c44444;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
 ::placeholder {
     color: #FDFFFF;
 }
@@ -97,6 +103,12 @@ label {
     padding: 14px 25px;
     margin-top: 56px;
     margin-left: 99px;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+    background-color: #88bec5;
+
 }
 
 img {
